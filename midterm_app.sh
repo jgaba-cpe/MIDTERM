@@ -18,5 +18,5 @@ echo "CMD python3 /home/myapp/midterm_app.py" >> tempdir/Dockerfile
 
 cd tempdir
 docker build -t midtermskillsapp .
-docker run -t -d -p 5050:5050 --name midtermskillsrun midtermskillsapp
+docker run -t -d -p 5050:5050 --name midtermskillsrun2 midtermskillsapp
 docker ps -a
